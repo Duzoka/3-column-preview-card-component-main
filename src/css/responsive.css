@@ -1,0 +1,35 @@
+@media (max-width: 375px) {
+
+    main {
+        width: 90vw;
+        max-width: 45.5em;
+        height: 90vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-wrapper {
+        flex-direction: column;
+        
+    }
+
+    .card-wrapper section {
+        width: 100%;
+    
+    }
+
+    .s1 {
+        background: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    
+    .s3 {
+        background: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+}
