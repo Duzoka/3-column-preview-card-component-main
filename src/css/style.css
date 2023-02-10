@@ -47,6 +47,7 @@ header, footer {
 .card-wrapper .flex h1 {
     color: hsl(0, 0%, 95%);
     margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 .card-wrapper .flex p {
